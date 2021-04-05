@@ -1,6 +1,6 @@
 
 module Findable
-  module InstanceMethods
+  module ClassceMethods
 
     def find_by_name(name)
       self.all.find { |j| j.name == name }
